@@ -52,6 +52,7 @@ This repository is licensed under the MIT License. See the LICENSE file for deta
 📚 Documentation Links
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://openai.github.io/openai-agents-python/
 
 OpenAI Agents Models
@@ -64,4 +65,11 @@ OpenAI Agents Models
 
 Google Gemini API Docs
 >>>>>>> 4fa8164 (Hojaaaa)
+=======
+https://openai.github.io/openai-agents-python/
+
+OpenAI Agents Models
+
+https://aistudio.google.com/apikey
+>>>>>>> b105f91 (Update readme.MD)
 
