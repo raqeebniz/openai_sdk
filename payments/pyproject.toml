@@ -1,0 +1,25 @@
+[project]
+name = "payments"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdul Raqeeb", email = "nizamaniabdurraqeeb@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=0.7.0",
+    "dotenv>=0.9.9",
+    "git-filter-repo>=2.47.0",
+    "openai-agents>=0.0.6",
+    "python-dotenv>=1.0.0",
+    "stripe>=7.0.0",
+    "stripe-agent-toolkit>=0.1.0",
+]
+
+[project.scripts]
+payments = "payments:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
