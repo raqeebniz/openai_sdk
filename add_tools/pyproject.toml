@@ -1,0 +1,20 @@
+[project]
+name = "add-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdul Raqeeb", email = "nizamaniabdurraqeeb@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.4.1",
+    "openai-agents>=0.0.4",
+]
+
+[project.scripts]
+add-tools = "add_tools:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
