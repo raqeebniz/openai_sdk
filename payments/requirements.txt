@@ -1,4 +1,0 @@
-chainlit>=0.7.0
-python-dotenv>=1.0.0
-stripe-agent-toolkit>=0.1.0
-stripe>=7.0.0 
